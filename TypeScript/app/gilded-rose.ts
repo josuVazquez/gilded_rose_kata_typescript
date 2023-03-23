@@ -37,6 +37,7 @@ export class GildedRose {
           break;
       }
     }
+    return this.items;
   }
 
   decreaseSellIn(item: Item) {
